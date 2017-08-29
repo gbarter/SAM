@@ -1267,10 +1267,12 @@ public:
 		// dc.SetBackground( wxBrush( wxColour(2, 152, 152) ) ); // bright teal <- obviously not the best color ever.
 		// dc.SetBackground( wxBrush( wxColour(120, 67, 163) ) ); // violet
 		// dc.SetBackground( wxBrush( wxColour(191, 38, 96) ) ); // reddish pink
-		dc.SetBackground( wxBrush( wxColour(15,79,34) ) ); // dark forest green	
+		//dc.SetBackground( wxBrush( wxColour(15,79,34) ) ); // dark forest green	
 		// dc.SetBackground( wxBrush( wxColour(130,186,0) ) ); // pale lime green		
 		//dc.SetBackground(wxBrush(wxColour(241, 47, 144))); // hot pink, making development more fun for everyone!
 		//dc.SetBackground(wxBrush(wxColour(23, 26, 33))); // nick's gray/black "blackish/gunbarrel gray"
+		
+		dc.SetBackground(wxBrush(wxColour(255,182,193))); 
 
 		dc.Clear();
 
